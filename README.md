@@ -1,13 +1,13 @@
-# 🧑‍🚀 Superdense Coding - Quantum Communication
+# Superdense Coding - Quantum Communication
 
 This repository contains an implementation of **Superdense Coding**, a fundamental quantum communication protocol that allows Alice to send **two classical bits** to Bob by transmitting **only one qubit** using quantum entanglement.
 
 ---
-## 📖 What is Superdense Coding?
+## What is Superdense Coding?
 
 Superdense coding is a **quantum communication protocol** that enables the transmission of **two classical bits** using **only one qubit**. It leverages the power of **quantum entanglement** and **quantum gates** to achieve **efficient information transfer**.
 
-### 🔹 **How It Works:**
+### **How It Works:**
 1. **Entanglement Setup:** Alice and Bob share an **entangled qubit pair** in the Bell state.
 2. **Encoding:** Alice applies quantum gates (**X, Z**) to her qubit based on the **2-bit classical message** she wants to send.
 3. **Transmission:** Alice sends her modified qubit to Bob.
@@ -17,7 +17,7 @@ This technique effectively **doubles the classical information capacity** of a s
 
 ---
 
-## 🚀 Overview
+## Overview
 
 Superdense coding allows:
 
@@ -27,15 +27,6 @@ Superdense coding allows:
 4. **Bob to apply decoding operations** to retrieve the original classical bits.  
 
 This implementation uses **Qiskit** to build, simulate, and visualize the quantum circuit.
-
----
-
-## 📌 Concepts Used
-
-- **Quantum Entanglement**  
-- **Quantum Gates (Hadamard, CNOT, X, Z)**  
-- **Quantum Measurement**  
-- **Qiskit AerSimulator for Execution**  
 
 ---
 
@@ -49,7 +40,7 @@ pip install qiskit matplotlib
 
 ---
 
-## 📜 Code Explanation
+## Code Explanation
 
 ### 1️⃣ **Entanglement Creation (`create_entanglment_ckt`)**
 - Creates an entangled Bell pair between Alice's and Bob’s qubits.
@@ -72,7 +63,7 @@ pip install qiskit matplotlib
 
 ---
 
-## 🔬 How to Run
+## How to Run
 
 1. **Clone the repository:**
    ```sh
@@ -87,7 +78,7 @@ pip install qiskit matplotlib
 
 ---
 
-## 🖼 Circuit Visualization
+## Circuit Visualization
 
 The quantum circuit is drawn using **Qiskit’s mpl drawer**.  
 To display it properly in Jupyter Notebook, use:
